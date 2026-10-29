@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <!-- Classic Antique Gold Gradient -->
+    <linearGradient id="classicGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7E2A9" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA771C" />
+      <stop offset="100%" stop-color="#6B4A10" />
+    </linearGradient>
+
+    <!-- Sterling Silver Gradient -->
+    <linearGradient id="classicSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="45%" stop-color="#D8DCE3" />
+      <stop offset="80%" stop-color="#9BA1AC" />
+      <stop offset="100%" stop-color="#5B6270" />
+    </linearGradient>
+
+    <radialGradient id="shieldBg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1A1C23" />
+      <stop offset="100%" stop-color="#0E1015" />
+    </radialGradient>
+  </defs>
+
+  <!-- Traditional Circular Filigree Ring -->
+  <circle cx="160" cy="160" r="148" fill="none" stroke="url(#classicGold)" stroke-width="2" />
+  <circle cx="160" cy="160" r="142" fill="none" stroke="url(#classicSilver)" stroke-width="1" stroke-dasharray="4,4" />
+
+  <!-- Classical Shield Plate -->
+  <path d="M 160 45 C 230 45, 245 70, 245 150 C 245 220, 195 260, 160 280 C 125 260, 75 220, 75 150 C 75 70, 90 45, 160 45 Z" 
+        fill="url(#shieldBg)" stroke="url(#classicGold)" stroke-width="3" />
+  
+  <!-- Inner Shield Inset Border -->
+  <path d="M 160 55 C 220 55, 233 77, 233 148 C 233 210, 190 248, 160 266 C 130 248, 87 210, 87 148 C 87 77, 100 55, 160 55 Z" 
+        fill="none" stroke="url(#classicSilver)" stroke-width="1.2" />
+
+  <!-- Classical Heraldic Laurel Branches (Left & Right) -->
+  <g fill="url(#classicGold)" opacity="0.85">
+    <!-- Left Laurel Leaves -->
+    <path d="M 115 110 C 105 105, 95 115, 105 125 C 115 120, 118 112, 115 110 Z" />
+    <path d="M 110 135 C 100 132, 92 144, 102 152 C 112 145, 114 138, 110 135 Z" />
+    <path d="M 112 165 C 104 164, 98 178, 110 184 C 118 175, 118 168, 112 165 Z" />
+    <path d="M 125 195 C 118 196, 115 210, 128 214 C 134 204, 132 196, 125 195 Z" />
+
+    <!-- Right Laurel Leaves -->
+    <path d="M 205 110 C 215 105, 225 115, 215 125 C 205 120, 202 112, 205 110 Z" />
+    <path d="M 210 135 C 220 132, 228 144, 218 152 C 208 145, 206 138, 210 135 Z" />
+    <path d="M 208 165 C 216 164, 222 178, 210 184 C 202 175, 202 168, 208 165 Z" />
+    <path d="M 195 195 C 202 196, 205 210, 192 214 C 186 204, 188 196, 195 195 Z" />
+  </g>
+
+  <!-- Center Classical Star Ornament -->
+  <polygon points="160,78 164,90 176,92 167,100 170,112 160,105 150,112 153,100 144,92 156,90" fill="url(#classicGold)" />
+
+  <!-- Monogram Initials: JCC in Classic Roman Serif -->
+  <text x="160" y="168" fill="url(#classicGold)" font-family="'Cinzel', 'Times New Roman', 'Baskerville', serif" font-size="44" font-weight="700" text-anchor="middle" letter-spacing="4">JCC</text>
+
+  <!-- Traditional Decorative Divider Ribbon -->
+  <path d="M 105 190 L 215 190 L 205 208 L 115 208 Z" fill="#141720" stroke="url(#classicGold)" stroke-width="1.2" />
+  <text x="160" y="203" fill="url(#classicSilver)" font-family="'Cinzel', 'Georgia', serif" font-size="9" font-weight="600" text-anchor="middle" letter-spacing="2">JOHN CARLO CAMCAM</text>
+
+  <!-- Crown / Coronet Top Accent -->
+  <path d="M 140 70 L 148 60 L 160 67 L 172 60 L 180 70 Z" fill="url(#classicGold)" />
+</svg>
